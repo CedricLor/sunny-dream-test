@@ -1,0 +1,65 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.bg-red {
+  background: $red;
+  color: white;
+}
+.bg-blue {
+  background: $blue;
+  color: white;
+}
+.bg-yellow {
+  background: $yellow;
+  color: white;
+}
+.bg-orange {
+  background: $orange;
+  color: white;
+}
+.bg-green {
+  background: $green;
+  color: white;
+}
+.bg-purple {
+  background: $purple;
+  color: white;
+}
+
+/* My utilities */
+.padded {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* CHECK ON BOOTSTRAP */
+.shadowed-box {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.super-margin {
+  margin-top: 220px;
+}
+.small-top-margin {
+  margin-top: 40px;
+}
+.search-form-margin {
+  margin-top: 100px;
+}
+/* My backgrounds */
+.bg-light-green {
+  background-color: $my-light-green;
+  color: $my-light-grey;
+  a {
+    color: $my-light-grey;
+  }
+}
+/* box wrapper background (shadow) */
+.card-wrapper {
+  border-radius: 2px;
+  background: rgba(175, 175, 175, 0.1) none repeat scroll 0% 0%;
+}
