@@ -1,8 +1,9 @@
 ---
 title: Sun.ny Ran.kings
 ---
+<div class="bg-img rankings-bg-image window-height"></div>
 
-<div class="header rankings-bg-image">
+<div class="header relative-positioned-wrapper window-height">
   <div class="container">
     <div class="row small-top-margin">
       <div class="col-xs-12 col-md-6">
@@ -26,11 +27,14 @@ title: Sun.ny Ran.kings
       <div class="col-xs-12 col-md-3"></div>
     </div>
   </div>
+  <a href="#rankingsMain">
+    <i class="fa fa-angle-down fa-6 pulse scroll-btn scroll-btn-absolute"></i>
+  </a>
 </div>
 
 <!-- Main content -->
-<div id="main bg-light-green">
-  <div id="companies-list" class="content bg-light-green padded text-center">
+<div id="rankingsMain" class="main-section">
+  <div id="companies-list" class="content bg-quasi-transparent padded text-center">
     <div class="container">
       <% data.companies.cosmetics.each do |firm| %>
         <div class="row">
@@ -65,4 +69,4 @@ title: Sun.ny Ran.kings
       <% end %>
     </div>
   </div> <!-- companies-list -->
-</div> <!-- #main -->
+</div> <!-- #indexMain -->

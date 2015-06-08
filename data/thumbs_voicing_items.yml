@@ -1,0 +1,8 @@
+- name: Congratulate
+  color: green
+  image: thumb.svg
+  glyphicon: glyphicon-thumbs-up
+- name: Report
+  color: red
+  image: thumb.svg
+  glyphicon: glyphicon-thumbs-down

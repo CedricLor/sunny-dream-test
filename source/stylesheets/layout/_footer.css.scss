@@ -2,6 +2,8 @@
 #footer {
   padding: 30px 0;
   color: red;
+  background-color: $my-light-green;
+  position: relative;
 }
 #footer p {
   margin-top: 17px;
@@ -10,7 +12,6 @@
   margin-top: 10px;
 }
 #footer a {
-  color: gainsboro;
   font-size: 30px;
   letter-spacing: 20px;
   transition: color 0.5s ease;

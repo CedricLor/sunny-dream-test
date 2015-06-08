@@ -37,7 +37,7 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* CHECK ON BOOTSTRAP */
+/* CHECK IF EXIST ON BOOTSTRAP */
 .shadowed-box {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
@@ -45,7 +45,7 @@
   margin-top: 220px;
 }
 .small-top-margin {
-  margin-top: 40px;
+  margin-top: 55px;
 }
 .search-form-margin {
   margin-top: 100px;
@@ -58,8 +58,52 @@
     color: $my-light-grey;
   }
 }
+.bg-quasi-transparent {
+  background-color: $my-very-light-green;
+  color: $my-light-red;
+  a {
+    color: $my-light-red;
+  }
+}
+/* My font settings */
+.brown-font {
+  color: $my-black-brown;
+  a {
+    color: $my-black-brown;
+  }
+  a:visited {
+    color: $my-black-brown;
+  }
+}
 /* box wrapper background (shadow) */
 .card-wrapper {
   border-radius: 2px;
   background: rgba(175, 175, 175, 0.1) none repeat scroll 0% 0%;
+}
+/* THUMBNAIL */
+/* ON COMPANY LISTING */
+.thumbnail-company-list {
+  background: rgba(175, 175, 175, 0) none repeat scroll 0% 0%;
+  margin-bottom: 10px;
+}
+/* USED FOR THE FORMATTING OF THE MAIN VOICING BUTTONS */
+.no-padding {
+  padding: 0px !important;
+}
+.large-glyph {
+  font-size: 300%;
+}
+.vertical-align {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.no-margin-bottom {
+  margin-bottom: 0px !important;
+}
+.green {
+  color: rgba(21, 107, 21, 0.95);
+}
+.red {
+  color: rgba(149, 0, 0, 0.95)
 }
